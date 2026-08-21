@@ -12,13 +12,13 @@
 ## 1. 見出し（日本語版）
 
 ```
-元LVMH×Diageo営業 → CXコンサル｜社内表彰2回｜消費者インサイト×データで「選ばれる瞬間」を設計｜CVR改善・ファネル分析・KPI設計・GA4・EC Analytics・Consumer Insight｜Entertainment / Consumer 領域の事業企画へ｜CX Consultant｜Waseda SILS・TOEIC 945
+元LVMH×Diageo営業 → CXコンサル｜社内表彰2回｜KARTE・GTM運用 × 案件管理の仕組み化｜消費者インサイト×データで顧客接点を設計｜大手金融・大手小売のCX支援｜Entertainment / Consumer 領域の事業企画へ｜CX Consultant｜Waseda SILS・TOEIC 945
 ```
 
 ## 2. 見出し（英語版プロフィール用）
 
 ```
-ex-Moët Hennessy Diageo (LVMH × Diageo) → CX Consultant | 2× internal award | Consumer insight × data analytics | CVR / funnel analysis, KPI design, GA4, e-commerce analytics | Seeking entertainment & consumer business roles | Waseda SILS | TOEIC 945
+ex-Moët Hennessy Diageo (LVMH × Diageo) → CX Consultant | 2× internal award | CX tooling (KARTE, GTM) × building the systems that run the work | Consumer insight × data | Major financial & retail clients | Seeking entertainment & consumer business roles | Waseda SILS | TOEIC 945
 ```
 
 ---
@@ -26,20 +26,24 @@ ex-Moët Hennessy Diageo (LVMH × Diageo) → CX Consultant | 2× internal award
 ## 3. About（日本語版）
 
 ```
-外資酒類メーカーで社内表彰2回。現在はCXコンサルタントとして、大手金融機関のCVR改善と
-大手小売チェーンのEC分析基盤構築を、クライアント窓口・案件リードとして担当しています。
+外資酒類メーカーで社内表彰2回。現在はCXコンサルタントとして、大手小売チェーンのKARTE運用と
+大手金融機関のタグ管理を担当し、案件を回す仕組みそのものを設計しています。
 
 消費者が何かを「選ぶ瞬間」に何が起きているのか——現場の定性インサイトと行動データの
 両側から、その瞬間を設計することを仕事にしてきました。
 
 ■ 現在｜株式会社SORAMICHI（大手金融・大手小売のCXを支援するコンサルティングファーム）
 CXコンサルタント
-・大手金融機関のCVR改善：GA4でのファネル分析から主要離脱ポイントを特定し、
-  改善アクションプランを設計・提言【数値: 　　　】
-・大手小売チェーンのEC分析基盤構築：KPI設計、Lookerによるレポーティング設計、
-  改善サイクルの運用設計まで一貫して担当
-・クライアント窓口と案件リードを担当。分析で終わらせず、事業側が実行できる粒度の施策に
-  翻訳し、意思決定まで伴走しています
+・大手小売チェーン｜KARTE運用：施策管理表の週次更新、工数管理表とBacklog優先度表の突合による
+  優先度・確度の管理。CRM定例・施策定例の議事録反映と、定例運用の標準化
+・大手金融機関（個人ローン領域）｜タグ公開の稟議書作成、開発・本番環境でのウォークスルーテスト
+  （発火確認）、GTMアクセス権限の構成整理（7コンテナ・542件規模）、
+  未経験者でも実施できる手順書・実務マニュアルの整備
+・案件管理の仕組み化：Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みを
+  ゼロから構築し、本番運用に乗せました。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備
+・顧客行動データの分析とレポーティング【要確認: 実際に担当している分析内容を記載】
+・KARTE Fundamentals Advanced の対策教材（学習ロードマップ・模擬試験・弱点補強ノート）を
+  自作し、未経験領域を体系的にキャッチアップしました
 
 ■ 前職｜MHD モエ ヘネシー ディアジオ株式会社（LVMH × Diageo 合弁の外資酒類メーカー）
 フィールドセールス／西東京エリア
@@ -58,8 +62,8 @@ CXコンサルタント
 1. 根拠ある提案力 — 現場の定性インサイトと定量データ（POS・行動ログ）を接続し、
    意思決定者が動く提案に変える
 2. 巻き込み力 — 利害とKPIが異なる関係者を、共通の成果に向けて合意させる
-3. キャッチアップ力 — 酒類B2B営業からCXコンサルへ。異なるドメインで、
-   入社3ヶ月でクライアント窓口と案件リードを担当
+3. キャッチアップ力 — 酒類B2B営業からCXコンサルへ。未経験のCX領域で、
+   資格対策教材を自作するレベルで体系立てて学び、2ヶ月で2案件の実務を担当
 
 ■ これから
 エンタメ・IP、食、小売・流通——生活者の日常と事業戦略が交差する領域で、
@@ -78,9 +82,9 @@ KPI Design, Consumer Insight, Brand Experience Design, Trade Marketing, Client M
 英語（ビジネスレベル／TOEIC 945・英語での論文執筆経験）、韓国語（TOPIK 4）、スペイン語（基礎）
 
 ■ English summary
-CX consultant leading client engagements for major financial and retail companies —
-CVR improvement through GA4 funnel analysis, and e-commerce analytics infrastructure
-(KPI design, BI reporting, improvement cycles). Previously at Moët Hennessy Diageo
+CX consultant working with major retail and financial clients — KARTE (CRM/CX platform)
+operations, Google Tag Manager governance for a large bank, and building the cross-tool
+system that keeps engagements running. Previously at Moët Hennessy Diageo
 (LVMH × Diageo), where I won two internal awards: flipping a competitor-dominant key
 account in the champagne category, and expanding a whisky brand's SKU lineup through
 brand experience design. Looking to move into entertainment and consumer business
@@ -102,11 +106,17 @@ that question from both sides — qualitative insight on the ground, and behavio
 
 ■ Now | SORAMICHI Inc. — CX Consultant
 A consulting firm supporting CX for major financial and retail clients.
-・CVR improvement for a major financial institution: identified key drop-off points
-  through GA4 funnel analysis, then designed and proposed the improvement action plan
-・E-commerce analytics infrastructure for a major retail chain: KPI design, Looker dashboards and reporting, and the operating model for the improvement cycle
-・Serve as the client-facing lead on engagements, translating analysis into decisions
-  the business can actually act on
+・Major retail chain | KARTE (CRM/CX platform) operations: weekly campaign tracking,
+  reconciling the effort ledger against the Backlog priority list, and standardizing
+  the recurring CRM and campaign meetings
+・Major financial institution (personal loans) | Tag release approval documentation,
+  walkthrough testing in both development and production, and restructuring Google Tag
+  Manager access permissions across 7 containers and 542 entries
+・Built the system that runs the work: a cross-tool state and diff-detection setup
+  spanning Backlog, Chatwork and Notion, taken from zero to production. Templated
+  recurring procedures into 10+ reusable playbooks in one month
+・Self-built a full study program (roadmap, mock exams, weak-point notes) for the
+  KARTE Fundamentals Advanced certification to ramp into a new domain systematically
 
 ■ Previously | Moët Hennessy Diageo K.K. (LVMH × Diageo joint venture)
 Field Sales Representative, West Tokyo
@@ -126,18 +136,18 @@ work and audience began.
 1. Evidence-backed proposals — connecting qualitative field insight with quantitative data
    (POS, behavioral) into proposals that move decision-makers
 2. Stakeholder alignment — getting parties with conflicting KPIs to a shared outcome
-3. Speed to competence — moved from B2B spirits sales to CX consulting, and was leading
-   client engagements within three months
+3. Speed to competence — moved from B2B spirits sales to CX consulting and was running
+   two client engagements within two months, in a domain I had no prior experience in
 
 ■ Where I'm heading
 Entertainment and IP, food, retail and distribution — domains where daily consumer life
 meets business strategy. I want to build businesses starting from consumer understanding.
 
 ■ Skills
-Customer Experience (CX), Data Analysis, Consumer Insight, Funnel Analysis, KPI Design,
-Conversion Rate Optimization, E-commerce Analytics, Google Analytics (GA4),
-Looker / Dashboard Design, Brand Experience Design, Trade Marketing, Visual Merchandising,
-POS Analysis, Client Management, Stakeholder Management
+Customer Experience (CX), KARTE, Google Tag Manager (GTM), CRM Operations,
+Tag Management, Business Process Design, Workflow Automation, Documentation,
+Consumer Insight, Data Analysis, Brand Experience Design, Trade Marketing,
+Visual Merchandising, POS Analysis, Stakeholder Management
 
 ■ Languages
 English (business level, TOEIC 945), Japanese (native), Korean (TOPIK 4), Spanish (basic)
@@ -160,20 +170,24 @@ Contact: aparin1353@gmail.com
 | 勤務地 | 東京都 |
 
 ```
-大手金融・大手小売のCXを支援するコンサルティングファームで、顧客行動データを起点とした
-CX改善を担当。クライアント窓口・案件リードを兼務。
+大手小売チェーン・大手金融機関を担当し、CXツールの運用と、案件を推進する仕組みづくりを担当。
 
-・大手金融機関のCVR改善：GA4でのファネル分析から主要離脱ポイントを特定し、
-  改善施策を設計・提言【数値: 　　　】
-・大手小売チェーンのEC分析基盤を構築：KPI設計 → Lookerによるレポーティング設計
-  → 改善サイクルの運用設計まで一貫して担当
-・クライアントの窓口として案件をリードし、分析の結論を意思決定に接続
-・顧客行動の可視化とUX改善提案
+・大手小売チェーン｜KARTE運用：施策管理表の週次更新、工数管理表とBacklog優先度表の突合による
+  優先度・確度管理。CRM定例・施策定例の議事録反映と、定例運用の標準化
+・大手金融機関（個人ローン領域）｜タグ公開の稟議書作成、開発・本番環境でのウォークスルーテスト
+  （発火確認）、GTMアクセス権限の構成整理（7コンテナ・542件規模）、
+  未経験者でも実施できる手順書・実務マニュアルの整備
+・案件管理の仕組み化：Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みを
+  ゼロから構築し、本番運用に乗せた。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備
+・顧客行動データの分析とレポーティング【要確認: 実際に担当している分析内容を記載】
 ```
 
-**スキル欄に紐付け:** Customer Experience (CX) / Data Analysis / Funnel Analysis /
-KPI Design / Conversion Rate Optimization / E-commerce Analytics /
-Google Analytics (GA4) / Looker / Client Management
+**スキル欄に紐付け:** Customer Experience (CX) / KARTE / Google Tag Manager (GTM) /
+CRM Operations / Tag Management / Business Process Design / Workflow Automation /
+Consumer Insight / Data Analysis
+
+> **クライアント名は伏せてある**（本人判断）。「大手小売チェーン」「大手金融機関」で
+> 規模感は十分伝わる。面接では口頭で社名を言えばよい。
 
 ### 5-2. MHD モエ ヘネシー ディアジオ株式会社
 
@@ -227,48 +241,56 @@ Visual Merchandising / POS Analysis / Stakeholder Management / B2B Sales
 
 ---
 
-## 6. スキル（登録順・20個）
+## 6. スキル（登録順）
 
 **ピン留めする上位3つ**
 ```
 1. Customer Experience (CX)
-2. Data Analysis
-3. Consumer Insight
+2. Consumer Insight
+3. KARTE
 ```
+
+> **選定理由:** ①は両ポジションを覆う傘。②は事業企画・マーケ・分析のどれにも橋を架け、
+> MHDとSORAMICHIの両方から防御できる。③は**あなたにしかない差別化要素**で、
+> かつ日本のCRM・CX職の採用では実際に「KARTE経験者」で検索される語。
+> 汎用の「Data Analysis」を上位に置くより、埋もれない。
 
 **残りを上から順に追加**
 ```
-Funnel Analysis
-KPI Design
-Conversion Rate Optimization
-E-commerce Analytics
-Google Analytics (GA4)
-Looker
-Dashboard Design
+Google Tag Manager (GTM)
+CRM Operations
+Tag Management
+Data Analysis
+Business Process Design
+Workflow Automation
+Documentation
+顧客行動分析
 Brand Experience Design
 Trade Marketing
 Visual Merchandising
 POS Analysis
 Marketing Strategy
-Client Management
-Project Leadership
 Stakeholder Management
 B2B Sales
+Backlog
+Notion
 Microsoft Excel
+PowerPoint
 English
 Korean
 ```
 
 **登録しない（意図的な除外）**
 ```
-SQL — 実務なし。触ったら即追加（優先度最高）
+Funnel Analysis / CVR Optimization / E-commerce Analytics / Google Analytics (GA4) / Looker
+  → 「一部はやっている」との回答。実際に担当しているものだけを後から追加する。
+    振り返り資料に記載がないため、現時点では載せない
+
+SQL — 実務なし。触ったら即追加
 Entertainment Industry — 業界実務なし
 Account Management / 提案営業 / 新規開拓 — 営業職を希望しないため
 Logical Thinking / Data-Driven Decision Making — 検索されない
-A/B Testing / Customer Journey Mapping — 実務未確認
 ```
-
----
 
 ## 7. 受賞・学歴・資格・言語
 
@@ -304,6 +326,8 @@ A/B Testing / Customer Journey Mapping — 実務未確認
 ```
 TOEIC Listening & Reading Test — 945点 / 発行元: 国際ビジネスコミュニケーション協会
 TOPIK 韓国語能力試験 4級 — 発行元: 韓国教育財団
+KARTE Fundamentals Advanced — 発行元: 株式会社プレイド
+  ※ 受験済み・結果待ち。合格後に登録する
 ```
 
 ### 言語（Languages）
@@ -353,16 +377,17 @@ TOPIK 韓国語能力試験 4級 — 発行元: 韓国教育財団
 
 ---
 
-## 未確定リスト（埋まると質が上がる）
+## 未確定リスト
 
 | 状態 | 項目 | 使う場所 |
 |---|---|---|
-| ⬜ **LinkedInから転記** | 映画配給会社の**社名・時期・担当業務** | §5-3 職歴エントリ。これが無いと作れない |
-| ⬜ **LinkedInから転記** | 社内表彰の**受賞年**（2回それぞれ） | §7 受賞欄 |
-| ⬜ **LinkedInから転記** | MHD表彰案件の**数値**（売上・シェア・SKU） | §3・§5-2 の【数値】 |
-| ⬜ 後日提供 | SORAMICHIの**CVR数値** | §3・§5-1 の【数値】 |
-| ✅ 確定 | BIツール = **Looker** | §6 スキル、§5-1 |
-| ✅ 方針変更 | SILS OBOG は心当たりなし → **LinkedInの卒業生検索で自力で洗う**（draft §4-3） | 別途 |
+| ⬜ **最優先** | 映画配給会社の**社名・時期・担当業務** | §5-3 職歴エントリ。これが無いと作れない |
+| ⬜ **要確認** | 実際に担当している**分析業務の中身**（ファネル分析／GA4／Looker／CVRのどれか） | §3・§5-1 の【要確認】、§6 スキル |
+| ⬜ LinkedInから転記 | 社内表彰の**受賞年**（2回それぞれ） | §7 受賞欄 |
+| ⬜ LinkedInから転記 | MHD表彰案件の**数値**（売上・シェア・SKU） | §3・§5-2 の【数値】 |
+| ✅ 確定 | クライアント名は**伏せる** | §3・§5-1 |
+| ✅ 確定 | ポジションは**両方並べる**（運用・仕組み化を上、分析を下） | 全体 |
+| ✅ 解決 | 数値 = **542件・7コンテナ・10本以上**（振り返り資料より） | §3・§5-1 |
 
-**4・5は「NDAで出せない」でも問題ない。** その場合は【数値】の記載ごと削除して、
-現在の相対表現（「競合優位アカウントのカテゴリを転換」）のまま出す。それでも十分機能する。
+**数値の問題は大部分が解決した。** 振り返り資料から 7コンテナ・542件・10本以上 という
+具体的な数字が取れたため、MHDの数値が出せなくても全体としては十分に成立する。

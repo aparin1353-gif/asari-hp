@@ -36,7 +36,7 @@ ex-Moët Hennessy Diageo (LVMH × Diageo) → CX Consultant | 2× internal award
 CXコンサルタント
 ・大手金融機関のCVR改善：GA4でのファネル分析から主要離脱ポイントを特定し、
   改善アクションプランを設計・提言【数値: 　　　】
-・大手小売チェーンのEC分析基盤構築：KPI設計、BIダッシュボードによるレポーティング設計、
+・大手小売チェーンのEC分析基盤構築：KPI設計、Lookerによるレポーティング設計、
   改善サイクルの運用設計まで一貫して担当
 ・クライアント窓口と案件リードを担当。分析で終わらせず、事業側が実行できる粒度の施策に
   翻訳し、意思決定まで伴走しています
@@ -104,8 +104,7 @@ that question from both sides — qualitative insight on the ground, and behavio
 A consulting firm supporting CX for major financial and retail clients.
 ・CVR improvement for a major financial institution: identified key drop-off points
   through GA4 funnel analysis, then designed and proposed the improvement action plan
-・E-commerce analytics infrastructure for a major retail chain: KPI design, BI dashboard
-  reporting, and the operating model for the improvement cycle
+・E-commerce analytics infrastructure for a major retail chain: KPI design, Looker dashboards and reporting, and the operating model for the improvement cycle
 ・Serve as the client-facing lead on engagements, translating analysis into decisions
   the business can actually act on
 
@@ -137,7 +136,7 @@ meets business strategy. I want to build businesses starting from consumer under
 ■ Skills
 Customer Experience (CX), Data Analysis, Consumer Insight, Funnel Analysis, KPI Design,
 Conversion Rate Optimization, E-commerce Analytics, Google Analytics (GA4),
-BI Dashboard Design, Brand Experience Design, Trade Marketing, Visual Merchandising,
+Looker / Dashboard Design, Brand Experience Design, Trade Marketing, Visual Merchandising,
 POS Analysis, Client Management, Stakeholder Management
 
 ■ Languages
@@ -166,7 +165,7 @@ CX改善を担当。クライアント窓口・案件リードを兼務。
 
 ・大手金融機関のCVR改善：GA4でのファネル分析から主要離脱ポイントを特定し、
   改善施策を設計・提言【数値: 　　　】
-・大手小売チェーンのEC分析基盤を構築：KPI設計 → BIダッシュボードによるレポーティング設計
+・大手小売チェーンのEC分析基盤を構築：KPI設計 → Lookerによるレポーティング設計
   → 改善サイクルの運用設計まで一貫して担当
 ・クライアントの窓口として案件をリードし、分析の結論を意思決定に接続
 ・顧客行動の可視化とUX改善提案
@@ -174,7 +173,7 @@ CX改善を担当。クライアント窓口・案件リードを兼務。
 
 **スキル欄に紐付け:** Customer Experience (CX) / Data Analysis / Funnel Analysis /
 KPI Design / Conversion Rate Optimization / E-commerce Analytics /
-Google Analytics (GA4) / 【BIツール名】 / Client Management
+Google Analytics (GA4) / Looker / Client Management
 
 ### 5-2. MHD モエ ヘネシー ディアジオ株式会社
 
@@ -244,7 +243,7 @@ KPI Design
 Conversion Rate Optimization
 E-commerce Analytics
 Google Analytics (GA4)
-【BIツール名: Tableau / Looker Studio / Power BI のいずれか】
+Looker
 Dashboard Design
 Brand Experience Design
 Trade Marketing
@@ -356,14 +355,14 @@ TOPIK 韓国語能力試験 4級 — 発行元: 韓国教育財団
 
 ## 未確定リスト（埋まると質が上がる）
 
-| 優先 | 項目 | 使う場所 |
+| 状態 | 項目 | 使う場所 |
 |---|---|---|
-| **1** | 映画配給会社の**社名・時期・担当業務** | §5-3 職歴エントリ。これが無いと作れない |
-| **2** | **BIツール名**（Tableau / Looker / Power BI） | §6 スキル、§5-1 |
-| 3 | 社内表彰の**受賞年**（2回それぞれ） | §7 受賞欄 |
-| 4 | MHD表彰案件の**数値**（売上・シェア・SKU） | §3・§5-2 の【数値】 |
-| 5 | SORAMICHIの**CVR数値** | §3・§5-1 の【数値】 |
-| 6 | 早稲田SILSのOBOG（外資エンタメ・メディア） | 別途アプローチ用 |
+| ⬜ **LinkedInから転記** | 映画配給会社の**社名・時期・担当業務** | §5-3 職歴エントリ。これが無いと作れない |
+| ⬜ **LinkedInから転記** | 社内表彰の**受賞年**（2回それぞれ） | §7 受賞欄 |
+| ⬜ **LinkedInから転記** | MHD表彰案件の**数値**（売上・シェア・SKU） | §3・§5-2 の【数値】 |
+| ⬜ 後日提供 | SORAMICHIの**CVR数値** | §3・§5-1 の【数値】 |
+| ✅ 確定 | BIツール = **Looker** | §6 スキル、§5-1 |
+| ✅ 方針変更 | SILS OBOG は心当たりなし → **LinkedInの卒業生検索で自力で洗う**（draft §4-3） | 別途 |
 
 **4・5は「NDAで出せない」でも問題ない。** その場合は【数値】の記載ごと削除して、
 現在の相対表現（「競合優位アカウントのカテゴリを転換」）のまま出す。それでも十分機能する。

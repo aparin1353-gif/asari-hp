@@ -41,7 +41,7 @@ CXコンサルタント
   未経験者でも実施できる手順書・実務マニュアルの整備
 ・案件管理の仕組み化：Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みを
   ゼロから構築し、本番運用に乗せました。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備
-・顧客行動データの分析とレポーティング【要確認: 実際に担当している分析内容を記載】
+・Lookerでの可視化とCVR改善：顧客行動データをダッシュボードに落とし、改善ポイントを特定・提言
 ・KARTE Fundamentals Advanced の対策教材（学習ロードマップ・模擬試験・弱点補強ノート）を
   自作し、未経験領域を体系的にキャッチアップしました
 
@@ -83,8 +83,8 @@ KPI Design, Consumer Insight, Brand Experience Design, Trade Marketing, Client M
 
 ■ English summary
 CX consultant working with major retail and financial clients — KARTE (CRM/CX platform)
-operations, Google Tag Manager governance for a large bank, and building the cross-tool
-system that keeps engagements running. Previously at Moët Hennessy Diageo
+operations, Google Tag Manager governance for a large bank, Looker dashboards and CVR
+improvement, and building the cross-tool system that keeps engagements running. Previously at Moët Hennessy Diageo
 (LVMH × Diageo), where I won two internal awards: flipping a competitor-dominant key
 account in the champagne category, and expanding a whisky brand's SKU lineup through
 brand experience design. Looking to move into entertainment and consumer business
@@ -144,10 +144,11 @@ Entertainment and IP, food, retail and distribution — domains where daily cons
 meets business strategy. I want to build businesses starting from consumer understanding.
 
 ■ Skills
-Customer Experience (CX), KARTE, Google Tag Manager (GTM), CRM Operations,
-Tag Management, Business Process Design, Workflow Automation, Documentation,
-Consumer Insight, Data Analysis, Brand Experience Design, Trade Marketing,
-Visual Merchandising, POS Analysis, Stakeholder Management
+Customer Experience (CX), KARTE, Google Tag Manager (GTM), Looker,
+Conversion Rate Optimization, CRM Operations, Tag Management,
+Business Process Design, Workflow Automation, Documentation, Consumer Insight,
+Data Analysis, Brand Experience Design, Trade Marketing, Visual Merchandising,
+POS Analysis, Stakeholder Management
 
 ■ Languages
 English (business level, TOEIC 945), Japanese (native), Korean (TOPIK 4), Spanish (basic)
@@ -179,12 +180,12 @@ Contact: aparin1353@gmail.com
   未経験者でも実施できる手順書・実務マニュアルの整備
 ・案件管理の仕組み化：Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みを
   ゼロから構築し、本番運用に乗せた。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備
-・顧客行動データの分析とレポーティング【要確認: 実際に担当している分析内容を記載】
+・Lookerでの可視化とCVR改善：顧客行動データをダッシュボードに落とし、改善ポイントを特定・提言
 ```
 
 **スキル欄に紐付け:** Customer Experience (CX) / KARTE / Google Tag Manager (GTM) /
-CRM Operations / Tag Management / Business Process Design / Workflow Automation /
-Consumer Insight / Data Analysis
+Looker / Conversion Rate Optimization / CRM Operations / Tag Management /
+Business Process Design / Workflow Automation / Data Analysis
 
 > **クライアント名は伏せてある**（本人判断）。「大手小売チェーン」「大手金融機関」で
 > 規模感は十分伝わる。面接では口頭で社名を言えばよい。
@@ -227,14 +228,22 @@ Visual Merchandising / POS Analysis / Stakeholder Management / B2B Sales
 | 勤務地 | 東京都 |
 
 ```
-作品が観客に届くまでの流通構造——配給・興行・宣伝の連なりを実務の中で学ぶ。
+国際営業部・宣伝部に所属。作品が観客に届くまでの流通構造——
+海外との取引から、宣伝、興行までの連なりを実務の中で学ぶ。
 
-・【要記入: 実際に担当した業務。宣伝資料の作成、動員データの集計、劇場対応など具体に】
-・【要記入: 2つ目の業務があれば】
+・国際営業：【要記入: 担当業務。海外配給元とのやり取り、契約・素材管理、資料作成など】
+・宣伝：【要記入: 担当業務。宣伝素材の制作進行、劇場・メディア対応、施策の効果集計など】
+・【興行分析をやっていた場合のみ】興行データ（動員・興行収入）の集計と分析
 ・消費者と作品の接点を設計する仕事に関心を持った出発点
 ```
 
-**スキル欄に紐付け:** 映画配給 / エンタテインメント / コンテンツ流通
+**スキル欄に紐付け:** 映画配給 / エンタテインメント / コンテンツ流通 /
+国際営業 / 宣伝・PR /【興行分析（該当する場合）】
+
+> **国際営業 × 宣伝部という組み合わせは強い。** 「作品を仕入れて（国際営業）、
+> 届ける（宣伝）」の両側を見ている＝配給ビジネスの構造を通しで理解している、と読める。
+> さらに TOEIC 945・国際教養学部と繋がり、**「英語ができてエンタメの国際取引を知っている」**
+> という一貫した線になる。エンタメ外資（Netflix / Disney / ソニー）で最も効く組み合わせ。
 
 > **これが最優先の未確定項目。** エンタメ領域の実務経験を「ゼロ」から「あり」に変える
 > 唯一の材料。担当業務が地味でも、社名と職種名がExperienceに存在すること自体に価値がある。
@@ -258,6 +267,8 @@ Visual Merchandising / POS Analysis / Stakeholder Management / B2B Sales
 **残りを上から順に追加**
 ```
 Google Tag Manager (GTM)
+Looker
+Conversion Rate Optimization (CVR)
 CRM Operations
 Tag Management
 Data Analysis
@@ -282,9 +293,9 @@ Korean
 
 **登録しない（意図的な除外）**
 ```
-Funnel Analysis / CVR Optimization / E-commerce Analytics / Google Analytics (GA4) / Looker
-  → 「一部はやっている」との回答。実際に担当しているものだけを後から追加する。
-    振り返り資料に記載がないため、現時点では載せない
+Funnel Analysis / E-commerce Analytics / Google Analytics (GA4)
+  → 実務の確認が取れていない。Looker と CVR改善は確認できたので登録済み。
+    ファネル分析・GA4も実際にやっているなら追加する
 
 SQL — 実務なし。触ったら即追加
 Entertainment Industry — 業界実務なし
@@ -381,8 +392,10 @@ KARTE Fundamentals Advanced — 発行元: 株式会社プレイド
 
 | 状態 | 項目 | 使う場所 |
 |---|---|---|
-| ⬜ **最優先** | 映画配給会社の**社名・時期・担当業務** | §5-3 職歴エントリ。これが無いと作れない |
-| ⬜ **要確認** | 実際に担当している**分析業務の中身**（ファネル分析／GA4／Looker／CVRのどれか） | §3・§5-1 の【要確認】、§6 スキル |
+| ⬜ **最優先** | 映画配給会社の**社名・期間**、および国際営業／宣伝での**具体的な担当業務** | §5-3 職歴エントリ |
+| ⬜ **要確認** | 映画配給での**興行分析の実務有無**（やっていれば最強の材料。やっていなければ書かない） | §5-3 |
+| ✅ 確定 | 分析業務 = **Looker + CVR改善**（ファネル分析・GA4は未確認のため不採用） | §3・§5-1・§6 |
+| ✅ 確定 | 映画配給の所属 = **国際営業部・宣伝部** | §5-3 |
 | ⬜ LinkedInから転記 | 社内表彰の**受賞年**（2回それぞれ） | §7 受賞欄 |
 | ⬜ LinkedInから転記 | MHD表彰案件の**数値**（売上・シェア・SKU） | §3・§5-2 の【数値】 |
 | ✅ 確定 | クライアント名は**伏せる** | §3・§5-1 |

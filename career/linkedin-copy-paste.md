@@ -1,390 +1,363 @@
-# LinkedIn 貼り付け用テキスト（確定版）
+# LinkedIn 貼り付け用テキスト（確定版 v2 / 現行プロフィール反映済み）
 
-**使い方:** 上から順に、LinkedInの該当欄にそのまま貼る。
-`【 】` は未確定。埋めてから貼るのが理想だが、**埋まらなくても貼れる**ように書いてある。
-設計の根拠は `linkedin-profile-draft.md` を参照。
-
-**貼る順序:** 見出し → About → 職歴3件 → スキル → 受賞・学歴・資格・言語 → 設定
-**最後に Open to Work をONにする。** それより前にONにすると未完成状態を見られる。
+**使い方:** 上から順にLinkedInの該当欄に貼る。`【 】` は未確定。
+現行プロフィール = `source-linkedin-current-profile.txt` / 設計根拠 = `linkedin-profile-draft.md`
 
 ---
 
-## 1. 見出し（日本語版）
+## ⚡ 優先順位 — ここだけやれば8割終わる
 
+現行プロフィールを見た結果、**直すべき箇所は3つに絞られました。** 職歴の中身は既に十分厚い。
+
+| 順 | 箇所 | 現状 | 所要 |
+|---|---|---|---|
+| **1** | **キャリアサマリ（About）** | **1行だけ**（言語の羅列のみ）。2,600字の欄が空 | 5分（§2を貼るだけ） |
+| **2** | **トップスキル3つ** | `PDCAサイクル` `ソーシャルメディア` `グローバルマーケティング` | 5分 |
+| **3** | **トランスフォーマーの記述** | 感想文で実績ゼロ。8ヶ月の素材が死んでいる | 15分（要記入あり） |
+| 4 | 受賞欄を独立させる | 職歴本文に埋没 | 5分 |
+| 5 | 見出しにMHDと表彰を入れる | 今の見出しに最大の資産が無い | 2分 |
+
+---
+
+## 1. 見出し（Headline）
+
+**現行:**
 ```
-元LVMH×Diageo営業 → CXコンサル｜社内表彰2回｜KARTE・GTM運用 × 案件管理の仕組み化｜消費者インサイト×データで顧客接点を設計｜大手金融・大手小売のCX支援｜Entertainment / Consumer 領域の事業企画へ｜CX Consultant｜Waseda SILS・TOEIC 945
+CX Consultant @ SORAMICHI | Consumer Insight × Data Analytics | Entertainment & IP | TOEIC 945
+```
+悪くない。ただし**MHDと社内表彰2回という最大の資産が入っていない。**
+またモバイルで人に見えるのは冒頭40字程度なので、そこに差別化要素を置く。
+
+**差し替え案（日本語版）**
+```
+元MHD（LVMH傘下）Account Executive・社内表彰2回 → CXコンサル｜Consumer Insight × Data Analytics｜GA4・KARTE・Looker Studio・GTM｜映画配給（国際営業・宣伝）出身｜Entertainment & IP｜TOEIC 945・早稲田SILS
 ```
 
-## 2. 見出し（英語版プロフィール用）
-
+**差し替え案（英語版プロフィール用）**
 ```
-ex-Moët Hennessy Diageo (LVMH × Diageo) → CX Consultant | 2× internal award | CX tooling (KARTE, GTM) × building the systems that run the work | Consumer insight × data | Major financial & retail clients | Seeking entertainment & consumer business roles | Waseda SILS | TOEIC 945
+ex-Moët Hennessy Diageo Account Executive, 2× internal award → CX Consultant | Consumer insight × data analytics | GA4, KARTE, Looker Studio, GTM | Film distribution background (int'l sales & publicity) | Entertainment & IP | TOEIC 945 | Waseda SILS
 ```
 
 ---
 
-## 3. About（日本語版）
+## 2. キャリアサマリ（About）★最優先
+
+**現行は `英語（TOEIC 945）｜日本語（ネイティブ）｜韓国語（TOPIK 4）` の1行のみ。**
+受け身モデルでは、ここがリクルーターの10秒勝負の本体。**最大の空白です。**
 
 ```
-外資酒類メーカーで社内表彰2回。現在はCXコンサルタントとして、大手小売チェーンのKARTE運用と
-大手金融機関のタグ管理を担当し、案件を回す仕組みそのものを設計しています。
+映画配給の現場から、酒類ブランドの営業、そしてCXコンサルタントへ。
+一貫して「作品や商品が、届くべき人に届く瞬間」の構造を扱ってきました。
 
-消費者が何かを「選ぶ瞬間」に何が起きているのか——現場の定性インサイトと行動データの
-両側から、その瞬間を設計することを仕事にしてきました。
+原点は大学時代、映画配給会社（株式会社トランスフォーマー）の国際営業部・宣伝部での
+8ヶ月間のインターンです。配給戦略の立案から劇場交渉、公開スケジューリング、観客獲得施策まで、
+作品が観客に届くまでの一連のプロセスに携わりました。作品が特定の市場でどう成立するのか、
+公開タイミングが観客の広がりをどう左右するのか——エンタメにおける商業的な論理と
+創造的な論理の接点を、実務の中で理解しました。
 
-■ 現在｜株式会社SORAMICHI（大手金融・大手小売のCXを支援するコンサルティングファーム）
-CXコンサルタント
-・大手小売チェーン｜KARTE運用：施策管理表の週次更新、工数管理表とBacklog優先度表の突合による
-  優先度・確度の管理。CRM定例・施策定例の議事録反映と、定例運用の標準化
-・大手金融機関（個人ローン領域）｜タグ公開の稟議書作成、開発・本番環境でのウォークスルーテスト
-  （発火確認）、GTMアクセス権限の構成整理（7コンテナ・542件規模）、
-  未経験者でも実施できる手順書・実務マニュアルの整備
-・案件管理の仕組み化：Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みを
-  ゼロから構築し、本番運用に乗せました。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備
-・Lookerでの可視化とCVR改善：顧客行動データをダッシュボードに落とし、改善ポイントを特定・提言
-・KARTE Fundamentals Advanced の対策教材（学習ロードマップ・模擬試験・弱点補強ノート）を
-  自作し、未経験領域を体系的にキャッチアップしました
+■ MHD モエ ヘネシー ディアジオ｜Account Executive（2025年4月 - 2026年5月）
+LVMHグループ傘下のプレミアム酒類企業で、西東京エリアの酒販店・料飲店（月間約80件）を担当。
+社内表彰を2回受賞しました。
 
-■ 前職｜MHD モエ ヘネシー ディアジオ株式会社（LVMH × Diageo 合弁の外資酒類メーカー）
-フィールドセールス／西東京エリア
-・【社内表彰】競合が圧倒的優位だった重点取引先に対し、店頭の定性仮説とPOSデータを
-  組み合わせた提案を実施。シャンパンカテゴリの取扱を自社ブランドへ転換させました【数値: 　　　】
-・【社内表彰】ウイスキーブランドの取扱SKU拡大を、什器・照明・専用メニューによる
-  空間ブランディング／ブランド体験の設計から実現しました【数値: 　　　】
-・ディストリビューター、店舗オーナー、ブランドマネージャーという、KPIが噛み合わない
-  関係者を同じ方向に動かす仕事でもありました。月間約80件を訪問
+1回目は、競合が優位だった主要取引先でシャンパーニュの棚シェアを逆転させた案件です。
+POSデータ・来店客層・競合棚割りの三軸で分析し、取引先の回転ポテンシャルを定量化。
+代理店と店舗の双方の合意を形成し、自社ブランド中心の棚構成への転換を実現しました。
 
-■ 原点｜【映画配給会社名】インターン
-作品が観客に届くまでの流通構造——配給・興行・宣伝の連なりを実務の中で学びました。
-消費者と作品の接点を設計する仕事に関心を持った出発点です。
+2回目は、空間ブランディングによるウイスキーSKUの拡大です。地域のバー文化に影響力を持つ
+有力店をターゲット化し、照明・販促ツール・オリジナルメニューを組み合わせたブランド体験を設計。
+オーナーとの信頼関係を土台に取扱SKUを拡充しました。
+
+■ 株式会社SORAMICHI｜CXコンサルタント（2026年6月 - 現在）
+デジタルマーケティング・データ分析領域のコンサルティング会社で、大手クライアントの
+CX改善と分析基盤構築を支援しています。
+
+大手金融機関のデジタルチャネルCVR改善では、ファネル分析と顧客行動ログの解析から
+主要離脱ポイントを特定し、UI/UX改善の優先順位付けとアクションプランを策定。
+あわせてタグ公開の稟議から本番環境での発火確認、GTMアクセス権限の構成整理
+（7コンテナ・542件規模）まで、計測基盤の実装・運用も担当しています。
+
+大手小売企業のECアナリティクスでは、KPI設計とレポーティング体制の構築から
+データ可視化・改善提案までを一貫して担当。KARTEでの施策管理と定例運用の標準化も
+並行して進めています。
+
+また、案件を回す仕組みそのものも作っています。Backlog / Chatwork / Notion を横断する
+状態管理と差分検出の仕組みをゼロから構築して本番運用に乗せ、業務手順を再利用可能な形で
+型化して1ヶ月で10本以上を整備しました。
 
 ■ 私の武器
-1. 根拠ある提案力 — 現場の定性インサイトと定量データ（POS・行動ログ）を接続し、
+1. 根拠ある提案力 — 定性インサイトと定量データ（POS・行動ログ）を接続し、
    意思決定者が動く提案に変える
-2. 巻き込み力 — 利害とKPIが異なる関係者を、共通の成果に向けて合意させる
-3. キャッチアップ力 — 酒類B2B営業からCXコンサルへ。未経験のCX領域で、
-   資格対策教材を自作するレベルで体系立てて学び、2ヶ月で2案件の実務を担当
+2. 巻き込み力 — 代理店・店舗・ブランドなど、利害とKPIが異なる関係者を合意させる
+3. キャッチアップ力 — 酒類B2B営業から未経験のCX領域へ。資格対策教材を自作するレベルで
+   体系立てて学び、2ヶ月で2案件の実務を担当
 
 ■ これから
 エンタメ・IP、食、小売・流通——生活者の日常と事業戦略が交差する領域で、
 消費者理解を起点に事業をつくる側に回ります。
-「良いコンテンツ・良い商品が、届くべき人に届く構造」を設計することが目標です。
+配給の現場で見た「作品が届く構造」を、今度は自分で設計したいと考えています。
 
 ■ 領域・スキル
-CX / カスタマーエクスペリエンス設計、EC分析、CVR改善、ファネル分析、KPI設計、
-Google Analytics (GA4)、BIダッシュボード設計、顧客行動可視化、消費者インサイト、
-POS分析、ブランド体験設計、トレードマーケティング、ビジュアルマーチャンダイジング、
-ステークホルダーマネジメント、クライアントマネジメント
-Customer Experience (CX), E-commerce Analytics, CVR Optimization, Funnel Analysis,
-KPI Design, Consumer Insight, Brand Experience Design, Trade Marketing, Client Management
+CX / カスタマーエクスペリエンス設計、ファネル分析、コホート分析、KPI設計、CVR改善、
+顧客行動可視化、ダッシュボード構築、タグマネジメント、業務プロセス設計、
+消費者インサイト、POS分析、ブランド体験設計、トレードマーケティング、
+ステークホルダー調整、配給戦略、コンテンツ流通
+
+■ ソフトウェア
+Google Analytics 4 / KARTE / Looker Studio / Google Tag Manager / Backlog / Notion
 
 ■ 語学
-英語（ビジネスレベル／TOEIC 945・英語での論文執筆経験）、韓国語（TOPIK 4）、スペイン語（基礎）
+英語（TOEIC 945・英語での論文執筆経験）、日本語（ネイティブ）、
+韓国語（TOPIK 4・建国大学 言語教育院）、スペイン語（マドリード・カルロス3世大学 交換留学）
 
 ■ English summary
-CX consultant working with major retail and financial clients — KARTE (CRM/CX platform)
-operations, Google Tag Manager governance for a large bank, Looker dashboards and CVR
-improvement, and building the cross-tool system that keeps engagements running. Previously at Moët Hennessy Diageo
-(LVMH × Diageo), where I won two internal awards: flipping a competitor-dominant key
-account in the champagne category, and expanding a whisky brand's SKU lineup through
-brand experience design. Looking to move into entertainment and consumer business
-development. Waseda University, School of International Liberal Studies. TOEIC 945.
+From film distribution to spirits brand sales to CX consulting — I have consistently worked
+on the structure of how a work or a product reaches the people it is meant for.
 
-ご連絡ください: aparin1353@gmail.com
+It started with an 8-month internship in the international sales and publicity departments
+of a Japanese film distributor, covering distribution strategy, theater negotiation, release
+scheduling and audience acquisition. At Moët Hennessy Diageo (LVMH group) I won two internal
+awards as an Account Executive: flipping shelf share in the champagne category at a
+competitor-dominant key account through POS, footfall and planogram analysis; and expanding
+a whisky brand's SKU lineup through brand experience design. I now work as a CX consultant —
+funnel and cohort analysis, CVR improvement, GTM governance (7 containers, 542 entries) and
+e-commerce analytics for major financial and retail clients — while building the cross-tool
+system that keeps those engagements running.
+
+Looking to move into entertainment and consumer business development.
+Waseda University, School of International Liberal Studies. TOEIC 945.
 ```
+
+> **貼る前に一度読んでください。** 事実はすべて現行プロフィールと振り返り資料から取っています。
+> ただし「答えられるか」は本人にしか判断できません（§最後の注意 参照）。
 
 ---
 
-## 4. About（英語版プロフィール用）
+## 3. トップスキル / スキル欄 ★最優先
 
-```
-Two internal awards at a global spirits company. Now a CX consultant leading client
-engagements for a major financial institution and a major retail chain.
+**現行のトップ3:** `PDCAサイクル` `ソーシャルメディア` `グローバルマーケティング`
 
-What happens in the moment a consumer chooses something? I have spent my career chasing
-that question from both sides — qualitative insight on the ground, and behavioral data.
+**問題:**
+- `ソーシャルメディア` `グローバルマーケティング` — **職歴に裏付けがない。** 面接で聞かれると崩れる
+- `PDCAサイクル` — リクルーターがこの語で検索することはほぼない
+- **プロフィール上部に常時表示される3枠を、最も弱い3つで埋めている状態**
 
-■ Now | SORAMICHI Inc. — CX Consultant
-A consulting firm supporting CX for major financial and retail clients.
-・Major retail chain | KARTE (CRM/CX platform) operations: weekly campaign tracking,
-  reconciling the effort ledger against the Backlog priority list, and standardizing
-  the recurring CRM and campaign meetings
-・Major financial institution (personal loans) | Tag release approval documentation,
-  walkthrough testing in both development and production, and restructuring Google Tag
-  Manager access permissions across 7 containers and 542 entries
-・Built the system that runs the work: a cross-tool state and diff-detection setup
-  spanning Backlog, Chatwork and Notion, taken from zero to production. Templated
-  recurring procedures into 10+ reusable playbooks in one month
-・Self-built a full study program (roadmap, mock exams, weak-point notes) for the
-  KARTE Fundamentals Advanced certification to ramp into a new domain systematically
-
-■ Previously | Moët Hennessy Diageo K.K. (LVMH × Diageo joint venture)
-Field Sales Representative, West Tokyo
-・[Internal award] Flipped a key account long dominated by a competitor, combining
-  in-store qualitative hypotheses with POS data. Switched the champagne category to our brands
-・[Internal award] Expanded a whisky brand's SKU lineup through spatial branding and
-  brand experience design — fixtures, lighting, and a bespoke menu
-・Aligned distributors, store owners, and brand managers whose KPIs did not agree.
-  Around 80 client visits per month
-
-■ Origin | Intern, 【film distribution company】
-Learned how a film actually reaches its audience — distribution, exhibition, and publicity
-as a connected system. This is where my interest in designing the point of contact between
-work and audience began.
-
-■ What I bring
-1. Evidence-backed proposals — connecting qualitative field insight with quantitative data
-   (POS, behavioral) into proposals that move decision-makers
-2. Stakeholder alignment — getting parties with conflicting KPIs to a shared outcome
-3. Speed to competence — moved from B2B spirits sales to CX consulting and was running
-   two client engagements within two months, in a domain I had no prior experience in
-
-■ Where I'm heading
-Entertainment and IP, food, retail and distribution — domains where daily consumer life
-meets business strategy. I want to build businesses starting from consumer understanding.
-
-■ Skills
-Customer Experience (CX), KARTE, Google Tag Manager (GTM), Looker,
-Conversion Rate Optimization, CRM Operations, Tag Management,
-Business Process Design, Workflow Automation, Documentation, Consumer Insight,
-Data Analysis, Brand Experience Design, Trade Marketing, Visual Merchandising,
-POS Analysis, Stakeholder Management
-
-■ Languages
-English (business level, TOEIC 945), Japanese (native), Korean (TOPIK 4), Spanish (basic)
-
-Contact: aparin1353@gmail.com
-```
-
----
-
-## 5. 職歴エントリ（3件）
-
-### 5-1. 株式会社SORAMICHI
-
-| 欄 | 入力値 |
-|---|---|
-| 役職名 | CXコンサルタント |
-| 雇用形態 | 正社員 |
-| 会社名 | 株式会社SORAMICHI |
-| 期間 | 2026年6月 – 現在 |
-| 勤務地 | 東京都 |
-
-```
-大手小売チェーン・大手金融機関を担当し、CXツールの運用と、案件を推進する仕組みづくりを担当。
-
-・大手小売チェーン｜KARTE運用：施策管理表の週次更新、工数管理表とBacklog優先度表の突合による
-  優先度・確度管理。CRM定例・施策定例の議事録反映と、定例運用の標準化
-・大手金融機関（個人ローン領域）｜タグ公開の稟議書作成、開発・本番環境でのウォークスルーテスト
-  （発火確認）、GTMアクセス権限の構成整理（7コンテナ・542件規模）、
-  未経験者でも実施できる手順書・実務マニュアルの整備
-・案件管理の仕組み化：Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みを
-  ゼロから構築し、本番運用に乗せた。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備
-・Lookerでの可視化とCVR改善：顧客行動データをダッシュボードに落とし、改善ポイントを特定・提言
-```
-
-**スキル欄に紐付け:** Customer Experience (CX) / KARTE / Google Tag Manager (GTM) /
-Looker / Conversion Rate Optimization / CRM Operations / Tag Management /
-Business Process Design / Workflow Automation / Data Analysis
-
-> **クライアント名は伏せてある**（本人判断）。「大手小売チェーン」「大手金融機関」で
-> 規模感は十分伝わる。面接では口頭で社名を言えばよい。
-
-### 5-2. MHD モエ ヘネシー ディアジオ株式会社
-
-| 欄 | 入力値 |
-|---|---|
-| 役職名 | フィールドセールス（西東京エリア担当） |
-| 雇用形態 | 正社員 |
-| 会社名 | MHD モエ ヘネシー ディアジオ株式会社 |
-| 期間 | 2025年4月 – 2026年5月 |
-| 勤務地 | 東京都 |
-
-```
-LVMH × Diageo 合弁の外資酒類メーカー。シャンパン・ウイスキー・スピリッツのポートフォリオを
-担当し、酒販店・飲食店へのブランド提案とブランド体験設計を担当。月間約80件を訪問。
-
-・【社内表彰】競合が圧倒的優位だった重点取引先に対し、店頭の定性仮説とPOSデータを
-  組み合わせた提案を実施。シャンパンカテゴリの取扱を自社ブランドへ転換【数値: 　　　】
-・【社内表彰】ウイスキーブランドの取扱SKU拡大を、什器・照明・専用メニューによる
-  空間ブランディング／ブランド体験設計から実現【数値: 　　　】
-・ディストリビューター／店舗オーナー／ブランドマネージャー間の合意形成と実行推進
-```
-
-**スキル欄に紐付け:** Consumer Insight / Brand Experience Design / Trade Marketing /
-Visual Merchandising / POS Analysis / Stakeholder Management / B2B Sales
-
-> **注:** 説明文で「営業」という語を意図的に減らし、「ブランド提案」「ブランド体験設計」に
-> 寄せてある。営業職を希望しないため（営業スカウトを呼び込まないための調整）。
-
-### 5-3. 【映画配給会社名】
-
-| 欄 | 入力値 |
-|---|---|
-| 役職名 | インターン |
-| 雇用形態 | **インターンシップ** |
-| 会社名 | 【要記入】 |
-| 期間 | 【要記入】 |
-| 勤務地 | 東京都 |
-
-```
-国際営業部・宣伝部に所属。作品が観客に届くまでの流通構造——
-海外との取引から、宣伝、興行までの連なりを実務の中で学ぶ。
-
-・国際営業：【要記入: 担当業務。海外配給元とのやり取り、契約・素材管理、資料作成など】
-・宣伝：【要記入: 担当業務。宣伝素材の制作進行、劇場・メディア対応、施策の効果集計など】
-・【興行分析をやっていた場合のみ】興行データ（動員・興行収入）の集計と分析
-・消費者と作品の接点を設計する仕事に関心を持った出発点
-```
-
-**スキル欄に紐付け:** 映画配給 / エンタテインメント / コンテンツ流通 /
-国際営業 / 宣伝・PR /【興行分析（該当する場合）】
-
-> **国際営業 × 宣伝部という組み合わせは強い。** 「作品を仕入れて（国際営業）、
-> 届ける（宣伝）」の両側を見ている＝配給ビジネスの構造を通しで理解している、と読める。
-> さらに TOEIC 945・国際教養学部と繋がり、**「英語ができてエンタメの国際取引を知っている」**
-> という一貫した線になる。エンタメ外資（Netflix / Disney / ソニー）で最も効く組み合わせ。
-
-> **これが最優先の未確定項目。** エンタメ領域の実務経験を「ゼロ」から「あり」に変える
-> 唯一の材料。担当業務が地味でも、社名と職種名がExperienceに存在すること自体に価値がある。
-
----
-
-## 6. スキル（登録順）
-
-**ピン留めする上位3つ**
+**差し替え（ピン留め3つ）**
 ```
 1. Customer Experience (CX)
-2. Consumer Insight
+2. Consumer Insight（顧客インサイト）
 3. KARTE
 ```
 
-> **選定理由:** ①は両ポジションを覆う傘。②は事業企画・マーケ・分析のどれにも橋を架け、
-> MHDとSORAMICHIの両方から防御できる。③は**あなたにしかない差別化要素**で、
-> かつ日本のCRM・CX職の採用では実際に「KARTE経験者」で検索される語。
-> 汎用の「Data Analysis」を上位に置くより、埋もれない。
+> **選定理由:** ①は現職そのもので両ポジションを覆う傘。②はMHDとSORAMICHIの両方から
+> 防御でき、事業企画・マーケ・分析のどれにも橋を架ける。③は差別化要素かつ、
+> 日本のCRM・CX採用で実際に「KARTE経験者」として検索される語。
 
-**残りを上から順に追加**
+**残りを上から順に登録**
 ```
+Google Analytics 4 (GA4)
+Looker Studio
 Google Tag Manager (GTM)
-Looker
-Conversion Rate Optimization (CVR)
-CRM Operations
-Tag Management
-Data Analysis
-Business Process Design
-Workflow Automation
-Documentation
+ファネル分析 / Funnel Analysis
+コホート分析 / Cohort Analysis
+KPI設計 / KPI Design
+CVR改善 / Conversion Rate Optimization
 顧客行動分析
-Brand Experience Design
-Trade Marketing
-Visual Merchandising
-POS Analysis
-Marketing Strategy
-Stakeholder Management
-B2B Sales
-Backlog
-Notion
-Microsoft Excel
-PowerPoint
-English
-Korean
+ダッシュボード構築 / Dashboard Design
+タグマネジメント / Tag Management
+業務プロセス設計 / Business Process Design
+データ分析 / Data Analysis
+ブランド体験設計 / Brand Experience Design
+POS分析 / POS Analysis
+トレードマーケティング / Trade Marketing
+ビジュアルマーチャンダイジング
+ステークホルダーマネジメント
+法人営業 (B2B Sales)
+配給戦略 / Film Distribution
+コンテンツ流通
+Microsoft Excel / PowerPoint
+English / Korean
 ```
 
-**登録しない（意図的な除外）**
+**削除するもの**
 ```
-Funnel Analysis / E-commerce Analytics / Google Analytics (GA4)
-  → 実務の確認が取れていない。Looker と CVR改善は確認できたので登録済み。
-    ファネル分析・GA4も実際にやっているなら追加する
-
-SQL — 実務なし。触ったら即追加
-Entertainment Industry — 業界実務なし
-Account Management / 提案営業 / 新規開拓 — 営業職を希望しないため
-Logical Thinking / Data-Driven Decision Making — 検索されない
+✗ ソーシャルメディア      — 職歴に裏付けなし
+✗ グローバルマーケティング — 職歴に裏付けなし
+✗ PDCAサイクル            — 検索されない（Aboutの文中に残せば十分）
+✗ SQL                     — 実務なし。触ったら即追加（検索需要が最も高い）
 ```
 
-## 7. 受賞・学歴・資格・言語
+**推薦（Endorsement）**
+MHD時代の同僚・上司、SORAMICHIの現メンバー計5〜10名にピン留め3スキルへの推薦を依頼する。
+受け身モデルでは推薦数が検索順位に直結する。
 
-### 受賞（Honors & Awards）— 独立欄に登録する
+---
+
+## 4. 職歴の修正
+
+### 4-1. 株式会社トランスフォーマー ★最優先（現行は感想文）
+
+**現行の記述の問題:** 「〜に携わりました」「〜を理解しました」で終わっていて、
+**何をやったか・何が起きたかが一つもない。** 8ヶ月・配給戦略・劇場交渉という強い素材が死んでいる。
+
+| 欄 | 入力値 |
+|---|---|
+| 会社名 | （株）トランスフォーマー |
+| 役職名 | 国際営業部・宣伝部 インターン |
+| 雇用形態 | インターンシップ |
+| 期間 | 2024年2月 – 2024年9月（8ヶ月） |
+| 勤務地 | 東京都渋谷区 |
 
 ```
-タイトル: 社内表彰（2回受賞）
+国際営業部・宣伝部の両部門で、作品の買い付けから公開までの配給業務に従事。
+
+・配給戦略の立案：作品ごとに、どの規模・どのタイミングで公開するかの検討に参加
+  【要記入: 担当した作品数、または具体的に何を担当したか】
+・劇場交渉・公開スケジューリングの実務
+  【要記入: 何館規模か、資料作成か同席か、担当範囲】
+・観客獲得施策の企画・実行
+  【要記入: 施策の種類。SNS、試写会、タイアップ、宣伝素材の制作進行など】
+・国際営業：海外との取引実務
+  【要記入: 海外配給元とのやり取り、契約・素材管理、英語での資料作成など】
+・【興行分析を担当していた場合のみ】興行データ（動員・興行収入）の集計と分析
+
+作品が特定の市場でどう成立するか、公開タイミングが観客の広がりをどう左右するか——
+配給の実務を通じて、エンタメにおける商業的な論理と創造的な論理の接点を理解した。
+```
+
+**スキル欄に紐付け:** 配給戦略 / コンテンツ流通 / エンタテインメント / 国際営業 / 宣伝・PR
+
+> **最後の段落（現行の文章）は残していい。** 上に実績の箇条書きを足すだけで機能が変わる。
+> 【要記入】は地味な内容でも構いません。「資料を作った」「同席した」でも、
+> 感想文よりはるかに強い。
+
+### 4-2. MHD モエ ヘネシー ディアジオ（軽微な追記のみ）
+
+現行の記述は**そのままで十分機能している。** 追記するとしたら数値だけ。
+
+```
+▶ 競合優位の主要取引先でシャンパーニュ棚シェアを逆転 | 社内表彰受賞（第1回）
+  【数値を足せる場合: 棚シェア ◯%→◯%、当該取引先の売上◯%増 など】
+
+▶ 空間ブランディング施策によりウイスキーSKUラインナップを拡大 | 社内表彰受賞（第2回）
+  【数値を足せる場合: 取扱SKU ◯→◯】
+```
+**出せなければ現状のままでよい。** 「棚シェアを逆転」は相対表現として既に十分強い。
+
+### 4-3. 株式会社SORAMICHI（振り返り資料の材料を追記）
+
+現行の記述に、**振り返り資料にしかない強い実績が抜けている。** 以下を追記。
+
+```
+（現行の▶2ブロックはそのまま。以下を追記）
+
+▶ 計測基盤の実装・運用
+タグ公開の稟議書作成から、開発・本番環境でのウォークスルーテスト（発火確認）、
+GTMアクセス権限の構成整理（7コンテナ・542件規模）まで担当。
+未経験者でも実施できる手順書・実務マニュアルを整備。
+
+▶ 案件推進の仕組み化
+Backlog / Chatwork / Notion を横断する状態管理と差分検出の仕組みをゼロから構築し、
+本番運用に乗せた。業務手順を再利用可能な形で型化し、1ヶ月で10本以上を整備。
+
+■ ソフトウェア（現行に追記）
+Google Analytics 4 / KARTE / Looker Studio / Google Tag Manager / Backlog / Notion
+```
+
+> **「7コンテナ・542件」「10本以上」は、あなたの職歴で数少ない具体的な数字です。**
+> 現行のLinkedInには一つも数字がありません。これを入れるだけで説得力が変わります。
+
+---
+
+## 5. 受賞欄を独立させる
+
+現行は職歴本文に「社内表彰受賞（第1回）」と埋没している。**独立した受賞欄に立てる。**
+
+```
+タイトル: 社内表彰（第1回）— シャンパーニュ棚シェア逆転
 発行元:   MHD モエ ヘネシー ディアジオ株式会社
-発行日:   【受賞年を記入。不明なら空欄のまま登録可】
+発行日:   【要記入: 受賞年月】
+説明:     競合優位の主要取引先において、POSデータ・来店客層・競合棚割りの三軸分析により
+          回転ポテンシャルを定量化。代理店・店舗双方の合意を形成し、自社ブランド中心の
+          棚構成への転換を実現。
 
-説明:
-・競合優位アカウントのシャンパンカテゴリ転換（定性仮説 × POSデータのハイブリッド提案）
-・ブランド体験設計によるウイスキーブランドのSKU拡大
+タイトル: 社内表彰（第2回）— 空間ブランディングによるウイスキーSKU拡大
+発行元:   MHD モエ ヘネシー ディアジオ株式会社
+発行日:   【要記入: 受賞年月】
+説明:     地域のバー文化に影響力を持つ有力店をターゲット化し、照明・販促ツール・
+          オリジナルメニューを組み合わせたブランド体験を設計。取扱SKUを拡充。
 ```
 
-### 学歴
+**発行日が分からなければ空欄でも登録できる。** 欄として独立させること自体に効果がある。
+
+---
+
+## 6. 資格・学歴・言語（現行の補完）
+
+### 資格 — 現行に不足しているもの
+
+現行: テキーラマエストロ / KARTE Fundamentals Basic / Google AI / TOEIC 945 / 英検準一級
 
 ```
-学校:     早稲田大学
-学位:     学士
-専攻:     国際教養学部（School of International Liberal Studies）
-
-活動と団体:
-交換留学（韓国・語学／スペイン）、映画配給会社でのインターン
-
-説明:
-英語で学位を取得する国際教養学部に在籍。英語での論文執筆（約40ページ）。
-韓国・スペインへの留学を通じ、異文化環境での学習と生活を経験。
+□ TOPIK 韓国語能力試験 4級 — キャリアサマリには書いてあるが資格欄に無い。追加する
+□ KARTE Fundamentals Advanced — 合格後に追加（現在結果待ち）
+□ Googleアナリティクス個人認定資格 — 取得済みなら追加。CX・データ職の検索で効く
 ```
 
-### 資格（Licenses & Certifications）
+> **テキーラマエストロは残してください。** 一見ネタに見えますが、
+> 酒類業界の専門性の証明であり、面接での話のフックにもなります。
+
+### 学歴（現行のまま。説明欄だけ補足）
 
 ```
-TOEIC Listening & Reading Test — 945点 / 発行元: 国際ビジネスコミュニケーション協会
-TOPIK 韓国語能力試験 4級 — 発行元: 韓国教育財団
-KARTE Fundamentals Advanced — 発行元: 株式会社プレイド
-  ※ 受験済み・結果待ち。合格後に登録する
+早稲田大学 国際教養学部（2019年4月 - 2024年9月）
+説明: 英語で学位を取得する国際教養学部。英語での論文執筆（約40ページ）。
+      在学中に映画配給会社でのインターン（8ヶ月）を経験。
+
+Universidad Carlos III de Madrid — Exchange, Cultural Studies（2022年1月 - 7月）
+건국대학교 言語教育院 — Korean Language and Literature（2021年7月 - 12月）
 ```
 
-### 言語（Languages）
+### 言語（現行のまま）
+
+現行の `英語 (Native or Bilingual)` `韓国語 (Professional Working)` は本人の申告どおり維持。
+スペイン語（マドリード交換留学）が未登録なので、初級として追加してもよい。
+
+---
+
+## 7. 設定
 
 ```
-日本語    — ネイティブまたはバイリンガル
-英語      — ビジネスレベル
-韓国語    — 中級
-スペイン語 — 初級
+□ Open to Work  「採用担当者のみに表示」で有効化 ← §1〜6を終えてから最後に
+   希望職種: 事業企画 / 事業開発 / カスタマーエクスペリエンス (CX) / データアナリスト /
+             マーケティング / ブランドマネジメント / コンサルタント
+             ※「営業」は登録しない（営業スカウトで埋もれるため）
+   希望業種: エンターテインメント / メディア / 消費財 / 小売 / マーケティング・広告
+   勤務地:   東京・神奈川（リモート可否も設定）
+
+□ 英語版プロフィール（第2言語）を追加 ← 外資日本法人のリクルーターは英語で検索する
+□ カスタムURL を linkedin.com/in/shunsuke-asari 系に（取得できれば）
+□ バナー画像 をデフォルトの青から変更
+□ 連絡先メールの統一 — 現行プロフィールは shunsukeasari81@gmail.com。意図通りか確認
+□ スキル推薦を5〜10名に依頼
 ```
 
 ---
 
-## 8. 設定（最後にやる）
+## ⚠️ 貼る前の最終チェック（本人にしか判断できないこと）
 
-### Open to Work — 受け身モデルの主電源
+現行プロフィールの記述のうち、**面接で15秒詰められたときに答えられるか**を確認してください。
+答えられるなら全て残してよい。詰まるものがあれば、今のうちに落とすか表現を変える。
 
-```
-公開範囲:  採用担当者のみに表示  ← #OpenToWork の緑枠は付けない
+| 記述 | 想定される質問 |
+|---|---|
+| 「コホート分析」 | どの案件で、何で分けて、何が分かりましたか？ |
+| 「クライアント側の意思決定プロセスを支援」 | 具体的にどの意思決定を、どう支援しましたか？ |
+| 「顧客行動ログ解析」 | どのログを、どのツールで、何を見ましたか？ |
+| 「ビッグデータの活用」 | どの規模のデータですか？ |
 
-希望職種:
-  事業企画 / 事業開発 (Business Development) / カスタマーエクスペリエンス (CX) /
-  データアナリスト / マーケティング / ブランドマネジメント / コンサルタント
-
-  ※ 「営業」「アカウントエグゼクティブ」は登録しない
-    （営業スカウトが大量に来て本命が埋もれるため）
-
-希望業種:
-  エンターテインメント / メディア / 消費財 / 小売 / マーケティング・広告
-
-勤務地:    東京（リモート可否も設定）
-開始時期:  すぐに / 相談可
-```
-
-### その他
-
-```
-□ カスタムURL      linkedin.com/in/shunsuke-asari 系に変更（取得できれば）
-□ プロフィール写真  顔がフレームの6割・無地背景・正面
-□ バナー画像        デフォルトの青のままにしない
-□ 公開プロフィール  検索エンジンへの公開をON
-□ 連絡先情報        メールを「つながり」以上に公開
-□ 英語版プロフィール 設定 → プロフィールの言語を追加 → §2・§4 を登録
-                   （外資日本法人のリクルーターは英語で検索する。受け身モデルでは必須）
-□ スキル推薦        5〜10名にピン留め3スキルへの推薦を依頼
-```
+> 入社2ヶ月の振り返りでは「対クライアント折衝・提案力」が**今後伸ばしたいこと**として
+> 挙がっていました。LinkedInの「意思決定プロセスを支援」と整合するかは、
+> あなたが一番よく分かっています。
 
 ---
 
@@ -392,15 +365,11 @@ KARTE Fundamentals Advanced — 発行元: 株式会社プレイド
 
 | 状態 | 項目 | 使う場所 |
 |---|---|---|
-| ⬜ **最優先** | 映画配給会社の**社名・期間**、および国際営業／宣伝での**具体的な担当業務** | §5-3 職歴エントリ |
-| ⬜ **要確認** | 映画配給での**興行分析の実務有無**（やっていれば最強の材料。やっていなければ書かない） | §5-3 |
-| ✅ 確定 | 分析業務 = **Looker + CVR改善**（ファネル分析・GA4は未確認のため不採用） | §3・§5-1・§6 |
-| ✅ 確定 | 映画配給の所属 = **国際営業部・宣伝部** | §5-3 |
-| ⬜ LinkedInから転記 | 社内表彰の**受賞年**（2回それぞれ） | §7 受賞欄 |
-| ⬜ LinkedInから転記 | MHD表彰案件の**数値**（売上・シェア・SKU） | §3・§5-2 の【数値】 |
-| ✅ 確定 | クライアント名は**伏せる** | §3・§5-1 |
-| ✅ 確定 | ポジションは**両方並べる**（運用・仕組み化を上、分析を下） | 全体 |
-| ✅ 解決 | 数値 = **542件・7コンテナ・10本以上**（振り返り資料より） | §3・§5-1 |
-
-**数値の問題は大部分が解決した。** 振り返り資料から 7コンテナ・542件・10本以上 という
-具体的な数字が取れたため、MHDの数値が出せなくても全体としては十分に成立する。
+| ⬜ | トランスフォーマーでの**具体的な担当業務**（配給戦略・劇場交渉・観客獲得施策） | §4-1。ここが最大の伸びしろ |
+| ⬜ | **興行分析の実務有無** | §4-1。あればエンタメ応募で最強の材料 |
+| ⬜ | 社内表彰の**受賞年月**（2回それぞれ） | §5 |
+| ⬜ | MHD実績の**数値** | §4-2。出せなければ現状維持で可 |
+| ✅ | 会社名 = 株式会社トランスフォーマー、2024年2月-9月（8ヶ月）、国際営業部・宣伝部 | §4-1 |
+| ✅ | BIツール = **Looker Studio**（Lookerではない） | §2・§3 |
+| ✅ | MHD役職名 = **Account Executive** | §4-2 |
+| ✅ | 分析業務 = ファネル分析・コホート分析・CVR改善・GA4（現行プロフィールに記載） | §2・§3 |

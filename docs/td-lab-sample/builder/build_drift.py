@@ -53,6 +53,18 @@ def setpar(o, name, value):
     return o
 
 
+def set_res(o, w, h=None):
+    """解像度を指定する。
+
+    TOP の resolutionw/h は Output Resolution が 'Custom Resolution' の時しか
+    効かない。先に outputresolution を custom にしないと黙って無視される。
+    """
+    setpar(o, 'outputresolution', 'custom')
+    setpar(o, 'resolutionw', w)
+    setpar(o, 'resolutionh', h if h is not None else w)
+    return o
+
+
 def node(parent, kind, name, x, y):
     o = parent.create(kind, name)
     o.nodeX, o.nodeY = x, y
@@ -141,9 +153,8 @@ def _build_base(master):
     setpar(lfo, 'amplitude', 0.03)
 
     noise = node(c, noiseTOP, 'noise_seed', x, 0); x += DX
-    setpar(noise, 'resolutionw', RES)
-    setpar(noise, 'resolutionh', RES)
-    setpar(noise, 'monochrome', True)
+    set_res(noise, RES)
+    setpar(noise, 'mono', True)          # Monochrome の正式名は mono
     setpar(noise, 'period', 26.0)
     # 横方向はゆっくり流し、縦は LFO で揺らす
     noise.par.t1.expr = "absTime.seconds * parent.DRIFT.par.Speed * 0.25"
@@ -183,9 +194,11 @@ def _build_motion(master):
 
     # ④ 微小な回転＋拡大。これが渦と外向きの流れを作る
     xf = node(c, transformTOP, 'xform_drift', x - DX * 2, DY)
-    xf.par.rotate.expr = 'parent.DRIFT.par.Driftrot * absTime.frame'
-    xf.par.scale1.expr = 'parent.DRIFT.par.Driftscale'
-    xf.par.scale2.expr = 'parent.DRIFT.par.Driftscale'
+    # 回転は「1フレームあたりの角度」＝定数。absTime.frame を掛けてはいけない。
+    # 蓄積はフィードバックループ側がやっているので、ここで積むと二重に回る。
+    xf.par.rotate.expr = 'parent.DRIFT.par.Driftrot'
+    xf.par.s1.expr = 'parent.DRIFT.par.Driftscale'   # Scale の正式名は s（s1/s2）
+    xf.par.s2.expr = 'parent.DRIFT.par.Driftscale'
     setpar(xf, 'extend', 'zero')          # 外周は黒で埋める（繰り返さない）
 
     chain(src, mix, decay, out)
@@ -205,9 +218,7 @@ def _build_post(master):
     pal = node(c, scriptTOP, 'ramp_palette', x, DY * 2)
     dat = node(c, textDAT, 'palette_src', x, DY * 3)
     dat.text = PALETTE_SCRIPT.format(stops=repr(PALETTE))
-    setpar(pal, 'callbacks', dat)
-    setpar(pal, 'resolutionw', 256)
-    setpar(pal, 'resolutionh', 1)
+    setpar(pal, 'callbacks', dat)   # 解像度は copyNumpyArray の配列形状が決める
 
     lut = node(c, lookupTOP, 'lut_color', x, 0); x += DX
 
@@ -224,8 +235,7 @@ def _build_post(master):
     # ⑦ 周辺減光
     vig = node(c, rampTOP, 'vig_ramp', x, DY)
     setpar(vig, 'type', 'radial')
-    setpar(vig, 'resolutionw', RES)
-    setpar(vig, 'resolutionh', RES)
+    set_res(vig, RES)
 
     mul = node(c, compositeTOP, 'post_vignette', x, 0); x += DX
     setpar(mul, 'operand', 'multiply')

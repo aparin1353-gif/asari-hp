@@ -34,10 +34,33 @@ python preview/preview_drift.py
   「設定したつもりで効いていない」に気づけない（運用メモ §7-3 の2番目）。
 - 冒頭で同名コンテナを削除してから作るので、何度実行しても同じ結果になる。
 
-## 未検証であることの明示
+## パラメータ名の検証状況
 
-`builder/build_drift.py` は **TouchDesigner 実機で実行していない**（この環境に TD が無いため）。
-構文は検証済みだが、オペレータのパラメータ名は未確認のものを含む。
-初回実行時は `setpar()` が名前の誤りを例外で教えるので、`docs` で正式名を引いて直すこと。
-これは運用メモの絶対ルール3（パラメータ名を記憶で書かない）に対する、
-「書いてしまった側」からの安全装置として設計してある。
+TouchDesigner 実機での実行は**していない**（作成環境に TD が無いため）。
+そのぶんパラメータ名を公式ドキュメントで裏取りし、誤りを4件修正した。
+
+| 項目 | 状況 |
+|---|---|
+| Feedback TOP の Target TOP = `top` | 確認済（[Feedback TOP](https://docs.derivative.ca/Feedback_TOP)） |
+| Level TOP = `blacklevel` / `gamma1` / `opacity` | 確認済（[Level TOP](https://docs.derivative.ca/Level_TOP)） |
+| Composite TOP の Operation = `operand` | 確認済（[Composite TOP](https://docs.derivative.ca/Composite_TOP)） |
+| Transform TOP の Extend = `extend`（hold/zero/repeat/mirror） | 確認済（[Transform TOP](https://docs.derivative.ca/Transform_TOP)） |
+| Ramp TOP の `type` に radial がある | 確認済（[Ramp TOP](https://docs.derivative.ca/Ramp_TOP)） |
+| Script TOP の Callbacks DAT = `callbacks` | 確認済（[Script TOP](https://docs.derivative.ca/Script_TOP)） |
+| **Transform TOP の Scale は `scale1` ではなく `s1`/`s2`** | ★修正済 |
+| **Noise TOP の Monochrome は `monochrome` ではなく `mono`** | ★修正済 |
+| **`resolutionw/h` は `outputresolution` を custom にしないと効かない** | ★修正済（`set_res()` に集約） |
+| **Transform TOP の rotate に `absTime.frame` を掛けていた** | ★修正済（下記） |
+| Blur TOP の Filter Size = `size` | 未確認。初回実行時に `setpar()` が落ちたら `docs` で引く |
+| メニュー型パラメータを文字列で設定できるか | 未確認（運用メモ §7-3 の2番目。索引指定が要る場合がある） |
+
+### 修正のうち1件は名前ではなく論理の誤り
+
+`xform_drift` の rotate に `Driftrot * absTime.frame` を書いていた。
+**回転角の蓄積はフィードバックループ自身がやっている**ので、ここで時間を掛けると
+二重に積まれ、フレームが進むほど回転が加速して絵が崩れる。正しくは
+1フレームあたりの角度＝定数 `Driftrot`。preview 側の `warp(state, DRIFTROT, ...)` が
+毎フレーム同じ角度を適用しているのと揃った。
+
+preview と builder でパラメータ名を1:1に揃えてあるのは、この種のズレを
+見つけやすくするため。片方だけ見ていたら気づけなかった。
